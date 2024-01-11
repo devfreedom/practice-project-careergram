@@ -1,0 +1,104 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+body {
+  min-width: 700px;
+}
+
+a.link,
+a.snsUrl {
+  color: inherit;
+  text-decoration: none;
+}
+ul,
+li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+}
+
+.field-main-content {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.field-title {
+  color: rgb(110, 110, 110);
+  font-weight: 600;
+  font-size: 15px;
+  width: 80px;
+  text-align: right;
+  display: inline-block;
+  margin-right: 10px;
+  letter-spacing: 0px;
+}
+
+.field-content {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  &.before {
+    width: 240px;
+  }
+}
+
+.num {
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.field-sub {
+  width: 600px;
+  justify-content: space-between;
+}
+.field-sub-content {
+  font-size: 23px;
+  font-weight: 550;
+}
+
+.input-edit {
+  display: flex;
+}
+
+.input-edit-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-edit-btns > button {
+  padding: 5px 10px;
+  font-size: 10px;
+}
+
+.partition {
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+/*
+모델의 클래스 이름 통일
+className => model
+span.fieldName
+h1.fieldContent(제목)
+
+
+*/
+
+.withdrawal-label {
+  color: rgb(50, 50, 50);
+  font-weight: 600;
+  font-size: 15px;
+  display: inline-block;
+  margin-right: 15px;
+}
